@@ -23,6 +23,7 @@ project "FastXML"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -31,10 +32,11 @@ project "FastXML"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -105,6 +107,7 @@ project "LowLevel"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -113,10 +116,11 @@ project "LowLevel"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -169,6 +173,7 @@ project "LowLevelAABB"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -177,10 +182,11 @@ project "LowLevelAABB"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -234,6 +240,7 @@ project "LowLevelDynamics"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -242,10 +249,11 @@ project "LowLevelDynamics"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -293,6 +301,7 @@ project "PhysXFoundation"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -301,10 +310,11 @@ project "PhysXFoundation"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -359,6 +369,7 @@ project "PhysXCharacterKinematic"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -367,10 +378,11 @@ project "PhysXCharacterKinematic"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -417,6 +429,7 @@ project "PhysXPvdSDK"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -425,10 +438,11 @@ project "PhysXPvdSDK"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -469,6 +483,7 @@ project "PhysXTask"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -477,10 +492,11 @@ project "PhysXTask"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -536,6 +552,7 @@ project "PhysXVehicle"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -544,10 +561,11 @@ project "PhysXVehicle"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -609,6 +627,7 @@ project "SceneQuery"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -617,10 +636,11 @@ project "SceneQuery"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -688,6 +708,7 @@ project "SimulationController"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -696,10 +717,11 @@ project "SimulationController"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -764,6 +786,7 @@ project "PhysXCommon"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -772,10 +795,11 @@ project "PhysXCommon"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -877,6 +901,7 @@ project "PhysX"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -885,10 +910,11 @@ project "PhysX"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
@@ -965,6 +991,7 @@ project "PhysXExtensions"
 
 	defines
 	{
+		"NDEBUG",
 		"PX_PHYSX_STATIC_LIB",
 		"_CRT_SECURE_NO_DEPRECATE",
 		"_CRT_NONSTDC_NO_DEPRECATE",
@@ -973,10 +1000,11 @@ project "PhysXExtensions"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "On"
+		symbols "Off"
+		optimize "Full"
 		defines
 		{
-			"PX_DEBUG=1",
+			"PX_DEBUG=0",
 			"PX_CHECKED=1",
 			"PX_NVTX=0",
 			"PX_SUPPORT_PVD=1"
